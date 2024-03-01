@@ -1,1 +1,0 @@
-print("taller AiPython P1 E2")
