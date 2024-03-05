@@ -47,5 +47,7 @@ print(texto.lower())
 
 # replace
 
-print(texto.replace(" ", "-"))
+print(texto.replace(" ", "*"))
+
+print(len(texto))
 
