@@ -18,7 +18,7 @@
 # print("su edad es", edad)
 # print("su edad es"+str(edad))
 
-# edad2=18
+# edad2=int(input("ingrese su edad:"))
 # print(F"su edad es {edad2}")
 
 # num1=3
@@ -32,22 +32,72 @@
 # print(f"{num1}**{num2}={num1**num2}")
 
 
-text="EsTo eS uN texTo MeZclAdO"
+# text="EsTo eS uN texTo MeZclAdO"
 
-# title
-print(text.title()) #ordena el txt poniendo iniciales en mayus
-print(text)
+# # title
+# print(text.title()) #ordena el txt poniendo iniciales en mayus
+# print(text)
 
-texto=text.title()
-print(texto)
+# texto=text.title()
+# print(texto)
 
-# upper and lower
-print(texto.upper())
-print(texto.lower())
+# # upper and lower
+# print(texto.upper())
+# print(texto.lower())
 
-# replace
+# # replace
 
-print(texto.replace(" ", "*"))
+# print(texto.replace(" ", "*"))
 
-print(len(texto))
+# print(len(texto))
 
+# sentencia if
+
+# if edad2 > 18:
+#     print("ud debe votar")
+
+# print("linea que es independiente del bloque")
+
+
+# if edad2 >= 18:
+#     print("ud debe votar")
+
+# else:
+#     print("ud es menor de edad")
+# print("linea que es independiente del bloque")
+
+# calificacion= int(input("ingrese calificacion:"))
+# if calificacion >=90:
+#     print("excelente")
+# else:
+#     if calificacion >= 80:
+#         print("muy bien")
+#     else:
+#         if calificacion >=70:
+#             print("bien")
+#         else:
+#             print("insuficiente")
+
+# calificacion= int(input("ingrese calificacion:"))
+# if calificacion >=90:
+#     print("excelente")
+# elif calificacion >= 80:
+#     print("muy bien")
+# elif calificacion >=70:
+#     print("bien")
+# else:
+#     print("insuficiente")
+
+
+dia= input("Introduce el dia de la semana: ")
+match dia:
+    case "Lunes":
+        print("Hoy es lunes, ¡a trabajar!")
+    case "Martes":
+        print("Hoy es miercoles, ¡que tengas un buen dia!")
+    case "Miercoles":
+        print("Hoy es miercoles ¡ya falta poco para el viernes!")
+    case "Jueves":
+        print("Mañana es viernes!!")
+    case "Viernes":
+        print("HOY ES")
