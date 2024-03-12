@@ -89,15 +89,36 @@
 #     print("insuficiente")
 
 
-dia= input("Introduce el dia de la semana: ")
-match dia:
-    case "Lunes":
-        print("Hoy es lunes, ¡a trabajar!")
-    case "Martes":
-        print("Hoy es miercoles, ¡que tengas un buen dia!")
-    case "Miercoles":
-        print("Hoy es miercoles ¡ya falta poco para el viernes!")
-    case "Jueves":
-        print("Mañana es viernes!!")
-    case "Viernes":
-        print("HOY ES")
+# dia= input("Introduce el dia de la semana: ")
+# match dia:
+#     case "Lunes":
+#         print("Hoy es lunes, ¡a trabajar!")
+#     case "Martes":
+#         print("Hoy es miercoles, ¡que tengas un buen dia!")
+#     case "Miercoles":
+#         print("Hoy es miercoles ¡ya falta poco para el viernes!")
+#     case "Jueves":
+#         print("Mañana es viernes!!")
+#     case "Viernes":
+#         print("HOY ES")
+
+
+
+
+def suma():
+    return(5+6)
+print(suma())
+def suma2(num1=4, num2=2):
+    return(num1+num2)
+print(suma2())
+
+def mensaje():
+    print("hola - aipython")
+mensaje()
+
+def presentacion(nombre, apellido, domicilio):
+    print(f"su nombre es: {nombre}, y su apellido es: {apellido}")
+    print(f"su domicilio, es {domicilio}")
+
+presentacion("jose", "oyarzo", "jaus")
+presentacion(nombre="jose", apellido="oyarzo", domicilio="jaus")
