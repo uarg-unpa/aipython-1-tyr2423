@@ -1,0 +1,9 @@
+nombre="Jose"
+apellido="Oyarzo"
+edad=20
+altura=1.70
+numero_vuelo=2016
+temperatura_ambiente=25
+salario_mensual="$500000"
+juego_terminado="False"
+es_par="true"
