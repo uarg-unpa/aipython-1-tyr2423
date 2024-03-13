@@ -10,8 +10,8 @@ area_rectangulo = base_rectangulo * altura_rectangulo
 radio_circunferencia = float(input("Ingrese el radio de la circunferencia: "))
 
 # Calcular perímetro y área de la circunferencia
-perimetro_circunferencia = 2 * 3.14159 * radio_circunferencia
-area_circunferencia = 3.14159 * radio_circunferencia ** 2
+perimetro_circunferencia = 2 * 3.1416 * radio_circunferencia
+area_circunferencia = 3.1416 * radio_circunferencia ** 2
 
 # Mostrar resultados
 print("\nResultados para el rectángulo:")
